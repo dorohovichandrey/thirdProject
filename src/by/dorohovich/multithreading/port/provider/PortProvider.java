@@ -9,6 +9,7 @@ import java.util.ArrayDeque;
 import java.util.Queue;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.atomic.AtomicBoolean;
+import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
@@ -18,17 +19,16 @@ public class PortProvider {
     private static final int NUMBER_OF_DOCKS=5;
     private static Port port;
     private static AtomicBoolean isCreated = new AtomicBoolean(false);
-    private static ReentrantLock lock=new ReentrantLock();
+    private static Lock lock=new ReentrantLock();
 
 
     public static Port getPort()
     {
         if(!isCreated.get())
         {
+            lock.lock();
             try
             {
-                lock.lock();
-
                 Semaphore semaphore = new Semaphore(NUMBER_OF_DOCKS, true);
 
                 StorageFactory storageFactory = new StorageFactory();

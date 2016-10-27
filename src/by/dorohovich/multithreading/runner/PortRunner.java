@@ -12,8 +12,8 @@ public class PortRunner {
     private static final int NUMBER_OF_SHIPS=15;
 
     public static void main(String[] args) throws Exception{
-        PortProvider portFactory=new PortProvider();
-        Port port=portFactory.getPort();
+        PortProvider portProvider=new PortProvider();
+        Port port=portProvider.getPort();
         port.initAndStartStorageDaemonController();
         createAndStartShips(NUMBER_OF_SHIPS);
 

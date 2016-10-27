@@ -1,88 +1,84 @@
-Ship{shipId=1, capacity=91, loaded=true} enter the port
-Ship{shipId=1, capacity=91, loaded=true} get Dock{dockId=0}
-Ship{shipId=14, capacity=74, loaded=true} enter the port
-Ship{shipId=14, capacity=74, loaded=true} get Dock{dockId=1}
-Ship{shipId=14, capacity=74, loaded=true} sleep, because of storage problem
-Ship{shipId=3, capacity=62, loaded=true} enter the port
-Ship{shipId=3, capacity=62, loaded=true} get Dock{dockId=2}
-Ship{shipId=10, capacity=51, loaded=false} enter the port
-Ship{shipId=10, capacity=51, loaded=false} get Dock{dockId=3}
-Ship{shipId=12, capacity=68, loaded=true} enter the port
-Ship{shipId=12, capacity=68, loaded=true} get Dock{dockId=4}
-Ship{shipId=3, capacity=62, loaded=true} sleep, because of storage problem
+Ship{shipId=1, capacity=53, loaded=true} enter the port
+Ship{shipId=1, capacity=53, loaded=true} get Dock{dockId=0}
+Ship{shipId=3, capacity=82, loaded=false} enter the port
+Ship{shipId=3, capacity=82, loaded=false} get Dock{dockId=1}
+Ship{shipId=5, capacity=74, loaded=false} enter the port
+Ship{shipId=5, capacity=74, loaded=false} get Dock{dockId=2}
+Ship{shipId=7, capacity=60, loaded=false} enter the port
+Ship{shipId=7, capacity=60, loaded=false} get Dock{dockId=3}
+Ship{shipId=7, capacity=60, loaded=false} sleep, because of storage problem
+Ship{shipId=9, capacity=71, loaded=true} enter the port
+Ship{shipId=9, capacity=71, loaded=true} get Dock{dockId=4}
 StorageDemonController solve storage problems, storage current load=110
-Ship{shipId=3, capacity=62, loaded=true} sleep, because of storage problem
+Ship{shipId=1, capacity=53, loaded=false} was unloaded
+Ship{shipId=1, capacity=53, loaded=false} return Dock{dockId=0}
+Ship{shipId=1, capacity=53, loaded=false} leave port
+Ship{shipId=11, capacity=64, loaded=false} enter the port
+Ship{shipId=11, capacity=64, loaded=false} get Dock{dockId=0}
 StorageDemonController solve storage problems, storage current load=110
-Ship{shipId=10, capacity=51, loaded=true} was loaded
-Ship{shipId=10, capacity=51, loaded=true} return Dock{dockId=3}
-Ship{shipId=10, capacity=51, loaded=true} leave port
-Ship{shipId=8, capacity=66, loaded=false} enter the port
-Ship{shipId=8, capacity=66, loaded=false} get Dock{dockId=3}
+Ship{shipId=9, capacity=71, loaded=false} was unloaded
+Ship{shipId=9, capacity=71, loaded=false} return Dock{dockId=4}
+Ship{shipId=9, capacity=71, loaded=false} leave port
+Ship{shipId=13, capacity=95, loaded=true} enter the port
+Ship{shipId=13, capacity=95, loaded=true} get Dock{dockId=4}
+Ship{shipId=5, capacity=74, loaded=true} was loaded
+Ship{shipId=5, capacity=74, loaded=true} return Dock{dockId=2}
+Ship{shipId=5, capacity=74, loaded=true} leave port
 StorageDemonController solve storage problems, storage current load=110
-Ship{shipId=12, capacity=68, loaded=false} was unloaded
-Ship{shipId=12, capacity=68, loaded=false} return Dock{dockId=4}
-Ship{shipId=12, capacity=68, loaded=false} leave port
-Ship{shipId=6, capacity=51, loaded=false} enter the port
-Ship{shipId=6, capacity=51, loaded=false} get Dock{dockId=4}
-Ship{shipId=1, capacity=91, loaded=false} was unloaded
-Ship{shipId=1, capacity=91, loaded=false} return Dock{dockId=0}
-Ship{shipId=1, capacity=91, loaded=false} leave port
-Ship{shipId=4, capacity=98, loaded=false} enter the port
-Ship{shipId=4, capacity=98, loaded=false} get Dock{dockId=0}
+Ship{shipId=3, capacity=82, loaded=true} was loaded
+Ship{shipId=3, capacity=82, loaded=true} return Dock{dockId=1}
+Ship{shipId=3, capacity=82, loaded=true} leave port
+Ship{shipId=0, capacity=96, loaded=true} enter the port
+Ship{shipId=0, capacity=96, loaded=true} get Dock{dockId=2}
+Ship{shipId=2, capacity=75, loaded=false} enter the port
+Ship{shipId=2, capacity=75, loaded=false} get Dock{dockId=1}
+Ship{shipId=7, capacity=60, loaded=true} was loaded
+Ship{shipId=7, capacity=60, loaded=true} return Dock{dockId=3}
+Ship{shipId=7, capacity=60, loaded=true} leave port
+Ship{shipId=4, capacity=98, loaded=true} enter the port
+Ship{shipId=4, capacity=98, loaded=true} get Dock{dockId=3}
+Ship{shipId=4, capacity=98, loaded=true} sleep, because of storage problem
+Ship{shipId=11, capacity=64, loaded=true} was loaded
+Ship{shipId=11, capacity=64, loaded=true} return Dock{dockId=0}
+Ship{shipId=11, capacity=64, loaded=true} leave port
+Ship{shipId=6, capacity=52, loaded=false} enter the port
+Ship{shipId=6, capacity=52, loaded=false} get Dock{dockId=0}
 StorageDemonController solve storage problems, storage current load=110
-Ship{shipId=14, capacity=74, loaded=false} was unloaded
-Ship{shipId=14, capacity=74, loaded=false} return Dock{dockId=1}
-Ship{shipId=14, capacity=74, loaded=false} leave port
-Ship{shipId=2, capacity=69, loaded=true} enter the port
-Ship{shipId=2, capacity=69, loaded=true} get Dock{dockId=1}
+Ship{shipId=2, capacity=75, loaded=true} was loaded
+Ship{shipId=2, capacity=75, loaded=true} return Dock{dockId=1}
+Ship{shipId=2, capacity=75, loaded=true} leave port
+Ship{shipId=8, capacity=50, loaded=false} enter the port
+Ship{shipId=8, capacity=50, loaded=false} get Dock{dockId=1}
+Ship{shipId=13, capacity=95, loaded=false} was unloaded
+Ship{shipId=13, capacity=95, loaded=false} return Dock{dockId=4}
+Ship{shipId=13, capacity=95, loaded=false} leave port
+Ship{shipId=10, capacity=83, loaded=true} enter the port
+Ship{shipId=10, capacity=83, loaded=true} get Dock{dockId=4}
+Ship{shipId=6, capacity=52, loaded=true} was loaded
+Ship{shipId=6, capacity=52, loaded=true} return Dock{dockId=0}
+Ship{shipId=6, capacity=52, loaded=true} leave port
+Ship{shipId=12, capacity=62, loaded=true} enter the port
+Ship{shipId=12, capacity=62, loaded=true} get Dock{dockId=0}
+Ship{shipId=0, capacity=96, loaded=false} was unloaded
+Ship{shipId=0, capacity=96, loaded=false} return Dock{dockId=2}
+Ship{shipId=0, capacity=96, loaded=false} leave port
+Ship{shipId=14, capacity=81, loaded=true} enter the port
+Ship{shipId=14, capacity=81, loaded=true} get Dock{dockId=2}
+Ship{shipId=14, capacity=81, loaded=true} sleep, because of storage problem
 StorageDemonController solve storage problems, storage current load=110
-Ship{shipId=6, capacity=51, loaded=true} was loaded
-Ship{shipId=6, capacity=51, loaded=true} return Dock{dockId=4}
-Ship{shipId=6, capacity=51, loaded=true} leave port
-Ship{shipId=0, capacity=69, loaded=true} enter the port
-Ship{shipId=0, capacity=69, loaded=true} get Dock{dockId=4}
-Ship{shipId=8, capacity=66, loaded=true} was loaded
-Ship{shipId=8, capacity=66, loaded=true} return Dock{dockId=3}
-Ship{shipId=8, capacity=66, loaded=true} leave port
-Ship{shipId=13, capacity=50, loaded=true} enter the port
-Ship{shipId=13, capacity=50, loaded=true} get Dock{dockId=3}
-Ship{shipId=13, capacity=50, loaded=true} sleep, because of storage problem
+Ship{shipId=8, capacity=50, loaded=true} was loaded
+Ship{shipId=8, capacity=50, loaded=true} return Dock{dockId=1}
+Ship{shipId=8, capacity=50, loaded=true} leave port
 StorageDemonController solve storage problems, storage current load=110
-Ship{shipId=3, capacity=62, loaded=false} was unloaded
-Ship{shipId=3, capacity=62, loaded=false} return Dock{dockId=2}
-Ship{shipId=3, capacity=62, loaded=false} leave port
-Ship{shipId=11, capacity=96, loaded=false} enter the port
-Ship{shipId=11, capacity=96, loaded=false} get Dock{dockId=2}
-StorageDemonController solve storage problems, storage current load=110
-Ship{shipId=2, capacity=69, loaded=false} was unloaded
-Ship{shipId=2, capacity=69, loaded=false} return Dock{dockId=1}
-Ship{shipId=2, capacity=69, loaded=false} leave port
-Ship{shipId=9, capacity=60, loaded=false} enter the port
-Ship{shipId=9, capacity=60, loaded=false} get Dock{dockId=1}
-Ship{shipId=0, capacity=69, loaded=false} was unloaded
-Ship{shipId=0, capacity=69, loaded=false} return Dock{dockId=4}
-Ship{shipId=0, capacity=69, loaded=false} leave port
-Ship{shipId=7, capacity=63, loaded=false} enter the port
-Ship{shipId=7, capacity=63, loaded=false} get Dock{dockId=4}
-Ship{shipId=4, capacity=98, loaded=true} was loaded
-StorageDemonController solve storage problems, storage current load=110
-Ship{shipId=4, capacity=98, loaded=true} return Dock{dockId=0}
-Ship{shipId=4, capacity=98, loaded=true} leave port
-Ship{shipId=5, capacity=78, loaded=true} enter the port
-Ship{shipId=5, capacity=78, loaded=true} get Dock{dockId=0}
-StorageDemonController solve storage problems, storage current load=110
-Ship{shipId=13, capacity=50, loaded=false} was unloaded
-Ship{shipId=13, capacity=50, loaded=false} return Dock{dockId=3}
-Ship{shipId=13, capacity=50, loaded=false} leave port
-Ship{shipId=11, capacity=96, loaded=true} was loaded
-Ship{shipId=11, capacity=96, loaded=true} return Dock{dockId=2}
-Ship{shipId=11, capacity=96, loaded=true} leave port
-Ship{shipId=9, capacity=60, loaded=true} was loaded
-Ship{shipId=9, capacity=60, loaded=true} return Dock{dockId=1}
-Ship{shipId=9, capacity=60, loaded=true} leave port
-Ship{shipId=7, capacity=63, loaded=true} was loaded
-Ship{shipId=7, capacity=63, loaded=true} return Dock{dockId=4}
-Ship{shipId=7, capacity=63, loaded=true} leave port
-Ship{shipId=5, capacity=78, loaded=false} was unloaded
-Ship{shipId=5, capacity=78, loaded=false} return Dock{dockId=0}
-Ship{shipId=5, capacity=78, loaded=false} leave port
+Ship{shipId=4, capacity=98, loaded=false} was unloaded
+Ship{shipId=4, capacity=98, loaded=false} return Dock{dockId=3}
+Ship{shipId=4, capacity=98, loaded=false} leave port
+Ship{shipId=12, capacity=62, loaded=false} was unloaded
+Ship{shipId=12, capacity=62, loaded=false} return Dock{dockId=0}
+Ship{shipId=12, capacity=62, loaded=false} leave port
+Ship{shipId=10, capacity=83, loaded=false} was unloaded
+Ship{shipId=10, capacity=83, loaded=false} return Dock{dockId=4}
+Ship{shipId=10, capacity=83, loaded=false} leave port
+Ship{shipId=14, capacity=81, loaded=false} was unloaded
+Ship{shipId=14, capacity=81, loaded=false} return Dock{dockId=2}
+Ship{shipId=14, capacity=81, loaded=false} leave port

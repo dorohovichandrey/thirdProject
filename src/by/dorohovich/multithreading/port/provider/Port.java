@@ -8,6 +8,7 @@ import org.apache.logging.log4j.Logger;
 
 import java.util.Queue;
 import java.util.concurrent.Semaphore;
+import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
@@ -19,7 +20,7 @@ public class Port {
     private Storage storage;
     private Queue<Dock> docks;
     private StorageDaemonController storageDaemonController;
-    private ReentrantLock lock=new ReentrantLock(true);
+    private Lock lock=new ReentrantLock(true);
 
     Port(Semaphore semaphore, Storage storage, Queue<Dock> docks) {
         this.semaphore = semaphore;
@@ -55,10 +56,12 @@ public class Port {
     public Dock getDock()
     {
 
+        lock.lock();
         try
         {
-            lock.lock();
-            return docks.poll();
+            Dock dock=null;
+            dock=docks.poll();
+            return dock;
         }
         finally
         {
@@ -69,9 +72,9 @@ public class Port {
     public void returnDock(Dock dock)
     {
 
+        lock.lock();
         try
         {
-            lock.lock();
             docks.add(dock);
         }
         finally
